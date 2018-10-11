@@ -8,9 +8,9 @@ We have got excellent results, with an average of 93%.
 # Intuition of RBM machines --> Model based on probability. Really interesting
 
 # PyTorch
-	* For our implementation, we are going to use PyTorch. Is a dinymic library, which is really good when using Unsupervised learning
-	* And also for some supervised learning, like RNN and CNN.
-	* It's faster
+For our implementation, we are going to use PyTorch. Is a dinymic library, which is really good when using Unsupervised learning
+and also for some supervised learning, like RNN and CNN.
+It's faster
 	* And better in some ways, than Keras
 
 # Boltzmann Machines - Stochastic model. Used when no much data available. Uses probability for state
