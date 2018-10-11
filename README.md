@@ -14,24 +14,22 @@ and also for some supervised learning, like RNN and CNN.
 * And better in some ways, than Keras
 
 # Boltzmann Machines - Stochastic model. Used when no much data available. Uses probability for state
-	* Are undirected models -- like a complete graph
-	* Visiable nodes & Hidden Nodes(Same) --> They work together, generanting data
-		* Even though we do get a fixed data, they don't just expect data, they generate data
-		* It generates different states, even without an especific data
-			* Thus, we use or data to help the model to ajust the weights accordinally, for our speficifc problem
+* Are undirected models -- like a complete graph
+* Visiable nodes & Hidden Nodes(Same) --> They work together, generanting data
+* Even though we do get a fixed data, they don't just expect data, they generate data
+* It generates different states, even without an especific data
+* Thus, we use or data to help the model to ajust the weights accordinally, for our speficifc problem
 
 
 # Energy-Based Models
-	* Probability distribution
-	* Based on the data given Boltzmann Machines ajusts the weights, to find the lowerst energy state(by probability)
-	* 
+* Probability distribution
+* Based on the data given Boltzmann Machines ajusts the weights, to find the lowerst energy state(by probability)	
 
 # Restricted Boltzmann Machines(RBM)
-	* Same idea of Boltzmann Machines. However, here visible nodes do not connect to each other, and so does hidden nodes.
-	* This is because for a full connected model, it becomes a very high cost model to compute.
-	* It generates states at all times
-	* During training, we ajust the sistem to be good to our example
-	*
+* Same idea of Boltzmann Machines. However, here visible nodes do not connect to each other, and so does hidden nodes.
+* This is because for a full connected model, it becomes a very high cost model to compute.
+* It generates states at all times
+* During training, we ajust the sistem to be good to our example
 
 # Contrastive  --> Used to train Boltzmann Machines --< Most used
 	# Gibbs Sampling
@@ -47,14 +45,14 @@ and also for some supervised learning, like RNN and CNN.
 			* Avoiding going step by step
 
 # Deep Belief Networks(DBN) 
-	* More than one RBM together.
-	* It's really powerfull, but really complex
+* More than one RBM together.
+* It's really powerfull, but really complex
 
 
 # Aplications:
-	* Audio/Music creation
-	* Recommender(a movie for example)
-		* For a especific user, we feed with information about movies he has seen, and movies he hasn't. 
-			* Based on the movies he has seen, it analysies the features(hidden nodes) that was activated
-			* Then, tries to find some correlation
-			* the goal then is to sugest a movie.
+* Audio/Music creation
+* Recommender(a movie for example)
+	* For a especific user, we feed with information about movies he has seen, and movies he hasn't. 
+		* Based on the movies he has seen, it analysies the features(hidden nodes) that was activated
+		* Then, tries to find some correlation
+		* the goal then is to sugest a movie.
