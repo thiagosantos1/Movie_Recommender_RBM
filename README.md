@@ -2,6 +2,9 @@
 We will build a RBM machine learning model, to recommend a movie to an user, based on what he clamis to like it. The idea is that users rate the movies and with this information our model will try to find correlations and then predict a movie which the user may like it.
 * We will use PyTorch for this implementation. 
 
+# Results
+We have got excellent results, with an average of 93%.
+
 # Intuition of RBM machines --> Model based on probability. Really interesting
 
 # PyTorch
